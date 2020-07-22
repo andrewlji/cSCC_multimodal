@@ -1,11 +1,15 @@
 # cSCC_multimodal
-Analysis scripts for cSCC scRNA-seq and ST analysis from Ji et al., Cell 2020.
+Analysis scripts for cSCC scRNA-seq, MIBI, and ST analysis from Ji et al., Cell 2020.
+
+scRNA-seq:
 
 SCC_create_seurat_object_from_counts.R
 - Creates Seurat object from scRNA-seq counts and metadata tables uploaded in GEO GSE144240
 
 SCC_ligand_receptor_scRNA_analysis.R
 - Workflow for ligand-receptor analysis in scRNA-seq data to generate p-values based average expression values
+
+ST:
 
 ST_run_STutility.R
 - Create Seurat object using STutility package (for illustrative purposes)
@@ -17,6 +21,11 @@ ST_leading_edge_proximity_analysis.R
 ST_calculate_nearest_neighbor.R
 - Tabulates cluster identities of nearest neighbors for spots in ST data and compares to randomized data
 
+MIBI:
+
+run_MIBI_2020_07_22.R
+- Cell type and distance analysis in MIBI data. Also see "MIBI_celltype_annotations.csv.gz" for table of cell types and positions in MIBI data. 
+
 Useful files:
 
 LR_barcode_celltype.txt
@@ -24,3 +33,6 @@ LR_barcode_celltype.txt
 
 ligand_receptor_list.csv
 - Compiled list of ligand-receptor pairs used for scRNA-seq and ST ligand-receptor analysis pulled from Ramilowski et al., Nature Communications 2015.
+
+MIBI_celltype_annotations.csv.gz
+- Cell type annotations and positions in MIBI data.
