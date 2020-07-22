@@ -1,5 +1,5 @@
 # cSCC_multimodal
-Analysis scripts for cSCC scRNA-seq and ST analysis
+Analysis scripts for cSCC scRNA-seq and ST analysis from Ji et al., Cell 2020.
 
 SCC_create_seurat_object_from_counts.R
 - Creates Seurat object from counts and metadata tables uploaded in GEO GSE144240
@@ -15,3 +15,6 @@ ST_leading_edge_proximity_analysis.R
 
 ST_calculate_nearest_neighbor.R
 - Tabulates cluster identities of nearest neighbors for spots in ST data and compares to randomized data
+
+LR_barcode_celltype.txt
+- Barcodes and cell type annotations for data used to generate scRNA-seq ligand-receptor analysis shown in Figure 6 of Ji et al., Cell 2020. See "SCC_ligand_receptor_scRNA_analysis.R" for additional information.
