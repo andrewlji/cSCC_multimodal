@@ -2,7 +2,7 @@
 Analysis scripts for cSCC scRNA-seq and ST analysis from Ji et al., Cell 2020.
 
 SCC_create_seurat_object_from_counts.R
-- Creates Seurat object from counts and metadata tables uploaded in GEO GSE144240
+- Creates Seurat object from scRNA-seq counts and metadata tables uploaded in GEO GSE144240
 
 SCC_ligand_receptor_scRNA_analysis.R
 - Workflow for ligand-receptor analysis in scRNA-seq data to generate p-values based average expression values
